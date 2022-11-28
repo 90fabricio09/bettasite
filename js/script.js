@@ -1,1 +1,29 @@
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('8 3=4.5(\'.3\');4.5(\'#j-9\').a=()=>{3.1.b(\'0\');7.1.2(\'0\');6.1.2(\'0\')}8 7=4.5(\'.d-i\');4.5(\'#d-9\').a=()=>{7.1.b(\'0\');3.1.2(\'0\');6.1.2(\'0\')}8 6=4.5(\'.c-g-f\');4.5(\'#c-9\').a=()=>{6.1.b(\'0\');3.1.2(\'0\');7.1.2(\'0\')}e.h=()=>{3.1.2(\'0\');7.1.2(\'0\');6.1.2(\'0\')}',20,20,'active|classList|remove|navbar|document|querySelector|cartItem|searchForm|let|btn|onclick|toggle|cart|search|window|container|items|onscroll|form|menu'.split('|'),0,{}))
+let navbar = document.querySelector('.navbar');
+
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+let searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+    navbar.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+let cartItem = document.querySelector('.cart-items-container');
+
+document.querySelector('#cart-btn').onclick = () =>{
+    cartItem.classList.toggle('active');
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+}
+
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
