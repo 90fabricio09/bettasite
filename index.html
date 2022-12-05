@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Betta - Site</title>
+  <meta name="title" content="Betta">
+  <meta name="description" content="Seja bem-vindo(a) a Betta, a melhor loja de desenvolvimento com os melhores preços. Visite agora nosso site!">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logopng.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logopng.png" width="74" height="24" alt="Betta home" class="logo-light">
+
+        <img src="./assets/images/logopng.png" width="74" height="24" alt="Betta home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logopng.png" width="74" height="24" alt="Betta home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#mais" class="navbar-link">Mais</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blogs</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:fabriciobettarello88@gmail.com" class="contact-link">fabriciobettarello88@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+55 (11) 93150-1833</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=5511931501833&text=Ol%C3%A1%20Betta!" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/betta_brasil" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCTVCdrubmPMLEcS4j94jVaA" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://discord.gg/AR87m5PDKe" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/FabricioBettarello" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <a href="https://bettabrasil.com.br" class="btn btn-primary">Betta Brasil</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Betta, o futuro da programação.</h1>
+
+            <p class="hero-text">
+              A melhor empresa, especializada no desenvolvimento e vendas, para saber mais clique no botão abaixo.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#blog" class="btn btn-primary">Explore Mais</a>
+
+              <a href="https://discord.gg/AR87m5PDKe" class="btn btn-outline">Contato</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/logobetta.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/betta-banner.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/betta-bannernew.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="mais">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/developer-activity-animate.svg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Quem somos nós?</p>
+
+            <h2 class="h2 section-title">
+              Sobre a Betta
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">O que é a Betta</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    A Betta é uma empresa focada em desenvolvimento de sites, servidores, bots, entre outras coisas.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Quem criou a Betta</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Fabricio Bettarello é o dono e criador da Betta, um jovem com o sonho de tornar todos felizes apenas com a programação.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Nossos serviços</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Trabalhamos com diversos serviços de desenvolvimento além de uma loja com a venda de diversos itens na Betta Brasil. <a href="https://bettabrasil.com.br" target="_blank">(Clique aqui)</a>
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/product-quality-animate.svg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Porque escolher a Betta</p>
+
+            <h2 class="h2 section-title">
+              Porque você deve escolher a Betta?
+            </h2>
+
+            <p class="section-text">
+              O principal foco da Betta é a qualidade e a praticidade dos serviços, contando com uma ótima equipe de trabalho que sempre da prioridade ao cliente!
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Suporte 24h
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Pagamento seguro
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Entrega em até 7 dias úteis
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    A melhor loja do mercado
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Nossos blogs</p>
+
+          <h2 class="h2 section-title">
+            Confira alguns de nossos projetos incríveis.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.png" width="560" height="350" loading="lazy"
+                    alt="Betta Brasil" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://bettabrasil.com.br" class="card-title">Betta Brasil</a>
+                  </h3>
+
+                  <p class="card-text">
+                    A Betta Brasil é uma loja de venda de produtos feita e desenvolvida por nós da Betta.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">11 Nov 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">by Betta</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.png" width="560" height="350" loading="lazy"
+                    alt="Fabricio Bettarello" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://www.instagram.com/bettarello_" class="card-title">Fabricio Bettarello</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fabricio Bettarello é o fundador e CEO da Betta, um jovem empresário e programador que sempre tem ideias novas.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">11 Nov 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">by Betta</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.gif" width="560" height="350" loading="lazy"
+                    alt="Atendimento" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://discord.gg/AR87m5PDKe" class="card-title">Atendimento</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Trabalhamos com diversos tipos de serviços, como desenvolvimento, criação de sites, bots e muito mais.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">11 Nov 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">by Betta</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Junte-se à nossa comunidade usando nossos serviços e expanda seus negócios.
+          </h2>
+
+          <a href="https://discord.gg/AR87m5PDKe" class="btn btn-primary" target="_blank">Discord</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logopng.png" width="74" height="24" alt="Betta home">
+        </a>
+
+        <p class="footer-text">
+          Betta | &copy; Todos os direitos reservados
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=5511931501833&text=Ol%C3%A1%20Betta!" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/betta_brasil" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCTVCdrubmPMLEcS4j94jVaA" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://discord.gg/AR87m5PDKe" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/FabricioBettarello" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Entre em contato</p>
+        </li>
+
+        <li>
+          <a href="mailto:fabriciobettarello88" class="footer-link">fabriciobettarello88@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:5511931501833" class="footer-link">+55 (11) 93150-1833</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Saber mais</p>
+        </li>
+
+        <li>
+          <a href="https://bettabrasil.com.br" class="footer-link">Betta Brasil</a>
+        </li>
+
+        <li>
+          <a href="https://discord.gg/AR87m5PDKe" class="footer-link">Discord</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/FabricioBettarello" class="footer-link">Projetos</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Nossas novidades</p>
+
+        <p class="footer-text">
+          Assine para receber nossas novidades e ofertas.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
